@@ -542,7 +542,7 @@ def joss_fig(outdir):
 outdir = os.getcwd() + "/data/"
 epss, epshs, ns = [1e-12, 1e-6], [1e-13, 1e-9], [35, 20]
 
-#Let the benchmark run 
+#Let the benchmark run
 for x in range(30):
     for algo in Algo:
         for m in np.logspace(1, 7, num=7):

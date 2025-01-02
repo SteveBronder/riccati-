@@ -612,6 +612,7 @@ inline auto evolve(SolverInfo &info, Scalar xi, Scalar xf,
                         dyeval, 1.0);
 }
 
+
 }  // namespace riccati
 
 #endif
